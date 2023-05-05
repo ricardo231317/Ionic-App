@@ -1,0 +1,53 @@
+<ion-content class="ion-text-center">
+  <div>
+    <ion-card>
+      <img src="../../assets/hg_logo.png" class="ion-img-center">
+      <ion-card-content>
+        <strong>
+          <h1 class="ion-text-center">Welcome to Haze Gelato Co.</h1>
+          <p class="ion-text-center">
+            Thank you for visiting our online store!
+          </p>
+          <p class="ion-text-center">
+            We offer a delicious range of high-quality gelatos to satisfy your sweet cravings. 
+            From classic flavors like chocolate and vanilla to unique combinations like pistachio and raspberry, we have something for every taste bud.
+          </p>
+          <p class="ion-text-center">
+            Take a look at our collection of delicious gelatos and find your next favorite flavor. 
+            We update our flavor inventory regularly, so be sure to check back often and try out our new and exciting gelato flavors.
+          </p>
+          <p class="ion-text-center">
+            Don't hesitate to contact us if you have any questions or comments about our delicious gelatos. 
+            We're always thrilled to hear from our gelato-loving customers and to share our passion for creamy, flavorful frozen treats.
+          </p>
+          <p class="ion-text-center">
+            Happy shopping!
+          </p>
+
+          <!-- Product Cards -->
+          <div *ngFor="let product of products">
+            <ion-card routerLink="/main/products/{{ product.id }}">
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="4">
+                    <img src="../../assets/{{ product.img_url }}" alt="{{ product.name }}">
+                  </ion-col>
+                  <ion-col size="8">
+                    <ion-card-header>
+                      <ion-card-title style="color: rgb(255, 255, 255)">{{ product.name }}</ion-card-title>
+                      <ion-card-subtitle style="color: rgb(255, 208, 0)">${{ product.price }}</ion-card-subtitle>
+                    </ion-card-header>
+                    <ion-card-content>
+                      <p style="color: rgb(250, 2, 2)">{{ product.short_description }}</p>
+                    </ion-card-content>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-card>
+          </div>
+
+        </strong>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

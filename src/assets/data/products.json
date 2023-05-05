@@ -1,0 +1,62 @@
+[
+	{
+		"id": "1",
+		"name": "Coconut Gelato",
+		"price": 5.99,
+		"color": "Milky White",
+		"code": "15-0989",
+		"short_description": "Coconut based gelatos",
+		"long_description": "Experience the striking and modern flavors of coconut gelatos! Indulge in the rich and creamy taste of our coconut-based gelatos, infused with a variety of delicious ingredients to create a truly unique dessert experience. From classic coconut to exotic combinations like coconut mango and coconut lime, our gelatos are sure to satisfy your cravings for something sweet and refreshing. Try our coconut gelatos today and taste the difference!",
+		"img_url": "gelato_coconut.png"
+	},
+	{
+		"id": "2",
+		"name": "Coffee Gelato",
+		"price": 2.99,
+		"color": "Loam Black",
+		"code": "17-8122",
+		"short_description": "Rich and Creamy",
+		"long_description": "Indulge in the rich and creamy world of coffee gelatos with Short and Chic. Our handcrafted gelatos blend the bold flavors of espresso and the smoothness of cream to create a decadent treat that will satisfy any coffee lover's cravings. Whether you prefer a classic affogato or a refreshing iced coffee gelato, Short and Chic has the perfect flavor for you. Treat yourself to a delicious scoop today!",
+		"img_url": "gelato_coffee.png"
+	},
+	{
+		"id": "3",
+		"name": "Cookies Gelato",
+		"price": 4.99,
+		"color": "Creamy Brown",
+		"code": "23-6211",
+		"short_description": "Cookies and Cream",
+		"long_description": "Cookies and Cream is a delicious gelato flavor that combines the creamy sweetness of vanilla gelato with the crunchy texture and rich flavor of chocolate cookies. This indulgent dessert is perfect for those who love the classic combination of cookies and cream, and it's sure to satisfy any sweet tooth. Whether enjoyed on its own or as a complement to other desserts, Cookies and Cream gelato is a popular choice for people of all ages.",
+		"img_url": "gelato_cookies_n_cream.png"
+	},
+	{
+		"id": "4",
+		"name": "Mango Gelato",
+		"price": 7.99,
+		"color": "Sunset Yellow",
+		"code": "18-1944",
+		"short_description": "Classic Sweet Aroma",
+		"long_description": "Made with ripe and juicy mangoes, these creamy and refreshing treats are the perfect way to beat the heat on a hot summer day. Whether you enjoy them on their own or paired with other fruity flavors.",
+		"img_url": "gelato_mango.png"
+	},
+	{
+		"id": "5",
+		"name": "Peanut Gelato",
+		"price": 5.99,
+		"color": "Medium Brown",
+		"code": "06-7931",
+		"short_description": "Sweet and Nutty",
+		"long_description": "Peanut gelatos are a delicious frozen dessert that combines the creamy goodness of gelato with the rich, nutty flavor of peanuts. Made with fresh milk, cream, and high-quality peanut butter, peanut gelatos are the perfect treat for anyone who loves the taste of peanuts. Whether you prefer your peanut gelato topped with chocolate sauce, caramel drizzle, or chopped nuts, there are countless ways to enjoy this irresistible dessert.",
+		"img_url": "gelato_peanutbutter.png"
+	},
+	{
+		"id": "6",
+		"name": "Raspberry Gelato",
+		"price": 3.99,
+		"color": "Bright Pink",
+		"code": "06-7931",
+		"short_description": "Delicious and Fruity",
+		"long_description": "Raspberry gelatos are a delicious and refreshing dessert that is perfect for a warm summer day. Made with fresh raspberries and creamy gelato, this treat is a burst of fruity flavor in every scoop. Whether enjoyed on their own or paired with other desserts, raspberry gelatos are a crowd-pleaser that is sure to satisfy any sweet tooth.",
+		"img_url": "gelato_raspberry.png"
+	}
+]

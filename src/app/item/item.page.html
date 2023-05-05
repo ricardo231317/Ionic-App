@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">{{ product.name }}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="ion-text-center">
+    <!-- id_1 -->
+    <img src="../../assets/{{ product.img_url }}" class="ion-img">
+  </div>
+  <ion-card>
+    <ion-card-header>
+
+      <!-- Name -->
+      <ion-card-title class="ion-text-center" style="color: rgb(255, 255, 255);">{{ product.name }}</ion-card-title>
+
+      <!-- Price -->
+      <ion-card-subtitle class="ion-text-center" style="color: rgb(255, 230, 0);">Price: ${{ product.price }}
+
+      </ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+ 
+      <!-- Gelato Color -->
+      <p class="ion-text-justify">
+        <strong style="color: rgb(255, 255, 255);">Gelato Color: {{ product.color }}</strong>
+      </p>
+      <!-- Gelato Code -->
+      <p class="ion-text-justify">
+        <strong style="color: rgb(252, 252, 252);">Gelato Code: {{ product.code }}</strong>
+      </p>
+
+      <!-- Long Description -->
+      <p class="ion-text-center ion-text-justify">{{ product.long_description}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

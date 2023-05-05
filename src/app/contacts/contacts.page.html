@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>CONTACTS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Ismail Mahmood</ion-card-title>
+      <ion-card-subtitle>Director</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-icon slot="start" name="call"></ion-icon>
+        <ion-label>
+          <a href="tel:+94693456234">+94693456234</a>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="start" name="mail"></ion-icon>
+        <ion-label>
+          <a href="mailto:director@hazegelato.com">director@hazegelato.com</a>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="start" name="logo-whatsapp"></ion-icon>
+        <ion-label>
+          <a href="https://wa.me/94693456234">Whatsapp Us</a>
+        </ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Salama Abdikadir</ion-card-title>
+      <ion-card-subtitle>Customer Service</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-icon slot="start" name="call"></ion-icon>
+        <ion-label >
+         <a href="tel:+95645623457">+95645623457</a>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="start" name="mail"></ion-icon>
+        <ion-label>
+          <a href="mailto:support@hazegelato.com">support@hazegelato.com</a>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon slot="start" name="logo-whatsapp"></ion-icon>
+        <ion-label>
+          <a href="https://wa.me/95645623457">Whatsapp Us</a>
+        </ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <div *ngFor="let product of products">
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <img src="../../assets/{{ product.img_url }}" alt="{{ product.name }}">
+          </ion-col>
+          <ion-col size="8">
+            <ion-card-header>
+              <ion-card-title style="color: rgb(255, 255, 255)">{{ product.name }}</ion-card-title>
+              <ion-card-subtitle>${{ product.price }}</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+              <p>{{ product.short_description }}</p>
+            </ion-card-content>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </div>
+
+  <p>Thanks for Shopping with us!</p>
+</ion-content>
